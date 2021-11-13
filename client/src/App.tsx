@@ -1,4 +1,5 @@
 import React from 'react';
+import ListItem from './components/list-item';
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <p>{!data ? "Loading..." : data}</p>
+      <ListItem text="First Input Item" />
     </div>
   );
 }
