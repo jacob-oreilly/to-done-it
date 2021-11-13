@@ -7,7 +7,7 @@ interface ListItemProps {
 const ListItem: FC<ListItemProps> = ({ text }) => {
     return (
         <>
-            <h1>{text}</h1>
+            <input />
         </>
     );
 };
